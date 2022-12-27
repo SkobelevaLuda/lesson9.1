@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Task4 {
     public static void main(String[] args) {
         Random random = new Random();
@@ -5,7 +7,7 @@ public class Task4 {
         int mapSize = 5;
         int listSize = 3;
         for (int i = 0; i< mapSize; i++) {
-            List<Integer>numbers = new ArrayList<>(listSize);
+            List<Integer> numbers = new ArrayList<>(listSize);
             for (int j = 0; j <listSize; j++) {
                 numbers.add(random.nextInt(1000));
             }
